@@ -1,0 +1,69 @@
+1- une fonction pour retourner le max de 2 inputs 
+2- une fonction pour afficher sur le console "Bonjour"
+3- une fonction pour afficher la somme de 2 inputs (utilisez prompt)
+4- ajouter un div html + 3 fonctions (into, out, bgColor)
+ - into : afficher le text "enter" dans la zone
+ - out : afficher le text "out" dans la zone
+ - bgColor : change la couleur de bg de div 
+
+document.getElementById("zone").onmousemove = into;
+document.getElementById("zone").onmouseout = out;
+document.getElementById("zone").onkeydown = bgColor;
+
+
+
+//# 1 # Write a JavaScript function to check whether an `input` is a string or not
+/*
+function isString(data)
+{
+ 
+}
+console.log("Exercice 1 : ");
+console.log(isString('hello65656'));// true
+console.log(isString([1,6,9])); // false
+console.log(isString(5)); // false
+console.log(isString("Is54545et")); // true
+
+*/
+
+//# 2 # Write a JavaScript function to check whether a string is blank or not 
+/*
+function isBlank (input) 
+{
+   
+   
+}
+console.log(isBlank('')); // true
+console.log(isBlank('hjhjh')); // false 
+ */
+/*
+//# 3 # Write a JavaScript function to split a string and convert it into an array of words
+function stringToArray(str) {
+     
+};
+console.log(stringToArray ("ISET Tataouine 2023 Groupe1er"));
+["ISET", "Tataouine", "2023"]
+
+*/
+
+/*
+//# 4 # Write a JavaScript function to extract a specified number of characters from a string
+function extractString(str1, length) 
+{
+  
+      
+};
+
+console.log(extractString("Robin Singh",4)); // "Robi"
+console.log(extractString("ISET Tataouine",7)); // "ISET Ta"
+
+*/
+
+//# 5 # Write a JavaScript function to hide email addresses to protect from unauthorized user
+function protectEmail (user_email) {
+    
+};
+console.log(protectEmail("isettataouine@gmail.com"));
+//"isetta...@gmail.com"
+
+//protectEmail("isettataouine@gmail.com");
